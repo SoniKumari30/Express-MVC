@@ -10,7 +10,7 @@ categoriesCltr.list = (req, res) => {
         res.json(err)
     })
 }
-
+//
 categoriesCltr.create =(req, res) => {  
     const body = req.body   
      const category = new Category(body) 

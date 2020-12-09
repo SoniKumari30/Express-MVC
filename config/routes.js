@@ -5,7 +5,7 @@ const categoriesCltr = require('../app/controllers/categoriessCltr')
 
 router.get('/api/tasks', tasksCltr.list)
 router.post('/api/tasks', tasksCltr.create)
-router.get('/api/tasks/:id', tasksCltr.show)
+//router.get('/api/tasks/:id', tasksCltr.show)
 
 router.get('/api/categories', categoriesCltr.list)
 router.post('/api/categories', categoriesCltr.create)
